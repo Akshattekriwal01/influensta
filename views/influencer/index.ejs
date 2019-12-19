@@ -1,0 +1,15 @@
+<%include ../partials/header%>
+
+    <% influencers.forEach(function(x){ %>
+        
+            <h4> <%= x.name %> </h4>
+            <p>Instagram: <%= x.socialMedia.instagram.followers%><p>
+            <p>twitter: <%= x.socialMedia.twitter.followers%><p>
+           
+            
+           
+    <% }); %> 
+
+
+
+<%include ../partials/footer%>
